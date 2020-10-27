@@ -103,7 +103,7 @@ render() {
 							<div class="card">
 								<div class="card-header">
 									<div class="card-head-row">
-										<div class="card-title">User Statistics</div>
+										<div class="card-title">Core</div>
 										
 									</div>
 								</div>
@@ -118,7 +118,7 @@ src="https://octanks3bucket.s3.amazonaws.com/Silver/Core.mp4">
 							<div class="card">
 								<div class="card-header">
 									<div class="card-head-row">
-										<div class="card-title">User Statistics</div>
+										<div class="card-title">HIIT2</div>
 										
 									</div>
 								</div>
@@ -135,7 +135,7 @@ src="https://octanks3bucket.s3.amazonaws.com/Silver/HIIT1.mp4">
 							<div class="card">
 								<div class="card-header">
 									<div class="card-head-row">
-										<div class="card-title">User Statistics</div>
+										<div class="card-title">HIIT3</div>
 										
 									</div>
 								</div>
