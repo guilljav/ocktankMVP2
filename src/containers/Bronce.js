@@ -103,7 +103,7 @@ render() {
 							<div class="card">
 								<div class="card-header">
 									<div class="card-head-row">
-										<div class="card-title">User Statistics</div>
+										<div class="card-title">Plyo1</div>
 										
 									</div>
 								</div>
@@ -118,7 +118,7 @@ src="https://octanks3bucket.s3.amazonaws.com/Bronze/Plyo1.avi">
 							<div class="card">
 								<div class="card-header">
 									<div class="card-head-row">
-										<div class="card-title">User Statistics</div>
+										<div class="card-title">Plyo2</div>
 										
 									</div>
 								</div>
