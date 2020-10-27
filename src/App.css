@@ -1,0 +1,19 @@
+.App {
+  margin-top: 15px;
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+  height: 100px;
+}
+
+.App .navbar-default {
+  width: 1040px;
+  margin-left: 100px;
+}
+
+.App li a {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
