@@ -16,7 +16,7 @@ import Select from 'react-select';
 const options = [
   { value: 'Gold', label: 'Gold' },
   { value: 'Silver', label: 'Silver' },
-  { value: 'Bronce', label: 'Bronce' },
+  { value: 'Bronze', label: 'Bronze' },
 ];
 
 export default class Signup extends Component {
@@ -206,21 +206,21 @@ export default class Signup extends Component {
             })
             .then((res) => {
               if (res.status == 200) {
-                this.props.history.push("/")
-            //     localStorage.setItem("refresh_token", res.data.refreshToken);
-            //     localStorage.setItem("access_token", res.data.accessToken);
-            //     localStorage.setItem("id_token", res.data.idToken.jwtToken);
-            //     localStorage.setItem("name", res.data.userData ? res.data.userData.Name: '');
-            //     localStorage.setItem("type", res.data.userData ? res.data.userData.Type : '');
-            //     this.props.userHasAuthenticated(true);
-            //     if(res.data.userData.Type == 'Gold')
-            //     this.props.history.push("/gold");
-            // else if(res.data.userData.Type == 'Bronce'){
-            //   this.props.history.push("/bronce")
-            // }
-            // else if (res.data.userData.Type == 'Silver'){
-            //    this.props.history.push("/silver")
-            // }
+               this.props.history.push("/")
+                localStorage.setItem("refresh_token", res.data.refreshToken);
+                localStorage.setItem("access_token", res.data.accessToken);
+                localStorage.setItem("id_token", res.data.idToken.jwtToken);
+                localStorage.setItem("name", res.data.userData ? res.data.userData.Name: '');
+                localStorage.setItem("type", res.data.userData ? res.data.userData.Type : '');
+                this.props.userHasAuthenticated(true);
+                  if(res.data.userData.Type == 'Gold')
+                      this.props.history.push("/gold");
+                  else if(res.data.userData.Type == 'Bronze'){
+                    this.props.history.push("/bronze")
+                  }
+                  else if (res.data.userData.Type == 'Silver'){
+                    this.props.history.push("/silver")
+                  }
               } else {
                 console.log(res);
                 this.setState({ isLoading: false });
