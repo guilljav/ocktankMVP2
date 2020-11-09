@@ -64,8 +64,8 @@ export default class Login extends Component {
             this.props.userHasAuthenticated(true);
             if(res.data.userData.Type == 'Gold')
                 this.props.history.push("/gold");
-            else if(res.data.userData.Type == 'Bronce'){
-              this.props.history.push("/bronce")
+            else if(res.data.userData.Type == 'Bronze'){
+              this.props.history.push("/bronze")
             }
             else if (res.data.userData.Type == 'Silver'){
                this.props.history.push("/silver")
